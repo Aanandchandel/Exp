@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poopins',sans-serif;
+    box-sizing: border-box;
+
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(46, 61, 78);
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+
+}
+.hero h1{
+    color: white;
+    font-size:45px ;
+    font-weight: 500;
+    margin-top:-50px ;
+    margin-bottom: 50px;
+}
+.hero h1 span{
+    color: rgba(102, 102, 221,0.5);
+    font-size: 150%;
+    
+}
+
+ .hero textarea{
+    color: #ddd;
+    width: 600px;
+    height: 250px;
+    outline: 0;
+    /* border: 0; */
+    font-size: 16px;
+    resize: none;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(60, 103, 138);
+    border-color: rgb(39, 34, 34);
+    border-width: 2px;
+    border-style: dotted;
+ }
+ 
+ .hero textarea::placeholder{
+    color: #ddd;
+    font-size: 16px;
+ }
+
+ .row{
+    width: 600px;
+display: flex;
+/* gap: 600px; */
+/* justify-content: space-between; */
+align-items: center;
+gap: 20px;}
+
+.row button{
+    background: #ff2963;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    /* margin-left: 430px; */
+    cursor: pointer;
+}
+.row select{
+    width: 200px;
+}
+button img{
+    width: 16px;
+    margin-right: 10px;
+}
+select{
+    flex: 1;
+    color: #fff;
+    background-color: #403d84;
+ height: 50px;
+ padding: 0 20px;
+ outline: 0;
+ border: 0;
+ border-radius: 35px;
+ appearance: none; 
+ background-image: url(text_to_speech_img/images/dropdown.png);
+ background-repeat: no-repeat;
+ /* background-size: 50px;  */
+/*  
+ background-position-x:calc(100% -20px) ; 
+ background-position-y:20px ;  */
+}
